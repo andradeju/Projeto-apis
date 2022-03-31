@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(218, 203, 206);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 40%;
+    margin: 5% auto;
+    background: #bab5c4;
+    
+}
+
+.truck{
+    width: 100%;
+    background-image: url(../img/truck.gif);
+    background-size: 100%;
+    height: 280px;
+}
+
+.inputs{
+    padding: 5%;
+}
+.inputs .group{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs div label{
+    font-weight: bold;
+    color: rgb(145, 39, 155);
+}
+
+.inputs div input{
+    height: 30px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.input-content {
+    display:flex;
+    background: #f0eaea;
+    align-items: center;
+    border-radius: 3px;
+}
+
+
+.icon{
+    width: 30px;
+    padding: 4px;
+}
